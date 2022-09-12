@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".perfiles">
+
+    <TextView
+        android:id="@+id/txtperfiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfiles"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/txtcodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Codigo Perfil:"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/txtdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción:"
+        android:inputType="textCapCharacters"
+        />
+
+    <EditText
+        android:id="@+id/txtsecuencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Secuencia:"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/txtcodmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Codigo Menu:"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+</LinearLayout>

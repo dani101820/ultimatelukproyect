@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".clientes">
+
+    <TextView
+        android:id="@+id/txtresgistrocliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro De Cliente"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/txtidentificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Identificación:"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/txtcodperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Codigo Perfil:"
+        android:inputType="phone"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/txtnombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombres:"
+        android:inputType="text"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/txtapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos:"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/txtdireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección:"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/txtcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celular:"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo Electronico:"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/txtfechadenac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha De Nacimiento:"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/txtfechadeing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha De Ingreso:"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:id="@+id/txtsuscrpcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Suscrpción:"
+        android:inputType="textCapCharacters"
+        />
+
+    <EditText
+        android:id="@+id/txttipodeloging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo De Loging:"
+        android:inputType="textCapCharacters"
+        />
+
+    <EditText
+        android:id="@+id/txtPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo De Perfil:"
+        android:inputType="textCapCharacters"
+        />
+
+    <EditText
+        android:id="@+id/txttarjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarjeta:"
+        android:inputType="textCapCharacters"
+        />
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

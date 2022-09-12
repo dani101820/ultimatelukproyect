@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "508329240366",
+    "project_id": "fir-lukultimate",
+    "storage_bucket": "fir-lukultimate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508329240366:android:bf36b7c4a7f6e91ee3fcbf",
+        "android_client_info": {
+          "package_name": "com.example.ultimatelukproyect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508329240366-28n52heao9v56hd2ggn34agjlbqsgra3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALE7XgiCHd0bJ_yS0sDT1k5SL-E9STexw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508329240366-28n52heao9v56hd2ggn34agjlbqsgra3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
